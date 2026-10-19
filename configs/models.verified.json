@@ -1,0 +1,42 @@
+[
+  {
+    "entry": "guard.llama-4-maverick",
+    "provider": "maas",
+    "model": "meta/llama-4-maverick-17b-128e-instruct-maas",
+    "location": "us-east5",
+    "ok": true,
+    "error": null,
+    "latency_s": 1.14,
+    "sample": "OK"
+  },
+  {
+    "entry": "guard.glm-5.2",
+    "provider": "maas",
+    "model": "zai-org/glm-5.2-maas",
+    "location": "global",
+    "ok": true,
+    "error": null,
+    "latency_s": 1.91,
+    "sample": "OK"
+  },
+  {
+    "entry": "guard.gpt-oss-120b",
+    "provider": "maas",
+    "model": "openai/gpt-oss-120b-maas",
+    "location": "global",
+    "ok": true,
+    "error": null,
+    "latency_s": 0.93,
+    "sample": "OK"
+  },
+  {
+    "entry": "guard.gemma-4-26b",
+    "provider": "maas",
+    "model": "google/gemma-4-26b-a4b-it-maas",
+    "location": "global",
+    "ok": true,
+    "error": null,
+    "latency_s": 0.4,
+    "sample": "OK"
+  }
+]

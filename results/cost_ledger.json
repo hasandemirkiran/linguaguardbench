@@ -1,0 +1,105 @@
+{
+  "total_usd": 1447.23,
+  "token_usd": 933.82,
+  "endpoint_usd": 513.41,
+  "endpoint_hours": 105.0,
+  "by_model": {
+    "claude-sonnet-5": {
+      "calls": 40898,
+      "input": 174062590,
+      "output": 1688597,
+      "usd": 365.01
+    },
+    "gemini-3.1-pro-preview": {
+      "calls": 638,
+      "input": 252646,
+      "output": 55403,
+      "usd": 1.17
+    },
+    "gemini-3.8-flash": {
+      "calls": 95682,
+      "input": 281230167,
+      "output": 3880432,
+      "usd": 225.47
+    },
+    "google/gemma-4-26b-a4b-it-maas": {
+      "calls": 40260,
+      "input": 119519409,
+      "output": 1296264,
+      "usd": 18.71
+    },
+    "human": {
+      "calls": 58,
+      "input": 0,
+      "output": 0,
+      "usd": 0.0
+    },
+    "meta/llama-4-maverick-17b-128e-instruct-maas": {
+      "calls": 40260,
+      "input": 115635372,
+      "output": 1127280,
+      "usd": 41.77
+    },
+    "openai/gpt-oss-120b-maas": {
+      "calls": 26180,
+      "input": 73333335,
+      "output": 7650829,
+      "usd": 9.35
+    },
+    "programmatic": {
+      "calls": 116,
+      "input": 0,
+      "output": 0,
+      "usd": 0.0
+    },
+    "zai-org/glm-5.2-maas": {
+      "calls": 40260,
+      "input": 112142382,
+      "output": 26213204,
+      "usd": 272.34
+    }
+  },
+  "by_guard": {
+    "agentdog-qwen3-4b": 2.93,
+    "claude-sonnet-5": 363.56,
+    "gemini-3.8-flash": 113.25,
+    "gemini-3.8-flash-scanner": 111.47,
+    "gemma-4-12b": 50.85,
+    "gemma-4-26b": 18.71,
+    "gemma-4-26b-vllm": 44.5,
+    "gemma-4-e2b": 45.47,
+    "glm-5.2": 272.34,
+    "gpt-oss-120b": 9.35,
+    "llama-4-maverick": 41.77,
+    "nemotron-3-nano-4b": 46.94,
+    "nemotron-3.5-lightning-30b": 50.36,
+    "nemotron-nano-9b": 48.41,
+    "para_casual": 0.31,
+    "para_human": 0.19,
+    "para_lexical": 0.26,
+    "para_terse": 0.27,
+    "para_typos": 0.19,
+    "para_verbose_polite": 0.31,
+    "placebo_whitespace": 0.0,
+    "qwen3.5-4b": 46.94,
+    "qwen3.5-9b": 47.92,
+    "qwen3.8-27b": 56.23,
+    "safiron-8b": 4.4,
+    "shieldagent-7b": 6.36,
+    "trans_am": 0.39,
+    "trans_de": 0.36,
+    "trans_fr": 0.36,
+    "trans_sw": 0.37,
+    "trans_tr": 0.36,
+    "ts-guard": 62.1
+  },
+  "live_endpoints": {
+    "usd": 0.0,
+    "endpoints": []
+  },
+  "total_incl_live_usd": 1447.23,
+  "budget": {
+    "budget_usd": 5000,
+    "remaining_usd": 3552.77
+  }
+}

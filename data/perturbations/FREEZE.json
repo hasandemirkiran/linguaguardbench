@@ -1,0 +1,212 @@
+{
+  "frozen_at": "2026-09-05T00:40:52Z",
+  "git_head": "94a0533205bb59a062dbf958df4606177947821c",
+  "files": [
+    {
+      "file": "para_casual.jsonl",
+      "sha256": "217e93615f79bc352a1af3fec0c16f8bf713bc62dac9086513231221c787902c",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "para_human.jsonl",
+      "sha256": "9b68ba9e920fbe8927c640d95bf13d8fa6d21b4d4cdef3572f7c6fc750f3d155",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "para_lexical.jsonl",
+      "sha256": "ea53910b7c2908c1531a91837ede7f144fafb44955416f3e6bd4d4df7da5f9aa",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "para_terse.jsonl",
+      "sha256": "d7383dc770d6c37771e9628bf39bd5af19ee69a6423643b08e333ba0303a9239",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "para_typos.jsonl",
+      "sha256": "45fb72238d0f091fd309808e8fd11b00f284eae0d469f52fbe95b50cd82447fb",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "para_verbose_polite.jsonl",
+      "sha256": "52fb50775077e0ce5124e2c5be56e2a313e887e4c7b1b2bfecd1affb461a3484",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "placebo_whitespace.jsonl",
+      "sha256": "3e4cafa088b849ca167ba0aab831ee85c540ac242e4e14ec8a8d77f90eab5909",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 0,
+      "control": true
+    },
+    {
+      "file": "trans_am.jsonl",
+      "sha256": "889f31672226174cff126c919b38ca71b7cca50f7c28164152c131f90cb3e75f",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "trans_de.jsonl",
+      "sha256": "0a8e49151aa05f4c2830b3482788f15076a8f1095234c5b60a9ae6bc93d3ded7",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "trans_fr.jsonl",
+      "sha256": "7d7c6e6f532673690f2bcb3a69c8fb613574b9b5c22fa094d87a87676ab70c49",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "trans_sw.jsonl",
+      "sha256": "00f60ef1fc48a7435501c2f9d19cd661137bd4a1603fc69aa242ee9ab5ab811f",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "trans_tr.jsonl",
+      "sha256": "10cc0baac55875aeaad0b3f7c32d0e257993a9631ca112c7e2a4b981bfb6e104",
+      "rows": 58,
+      "accepted": 58,
+      "manually_reviewed": 58,
+      "control": false
+    },
+    {
+      "file": "validation_para_casual.primary.jsonl",
+      "sha256": "aa78f6273895801e71a001ffa579d0817c3614d654379a17681e06b4c8c195a4",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_casual.secondary.jsonl",
+      "sha256": "1c6d314e9ecadda907c694d3a9b958bc9320ab9da9966a2a7cee6f94328b1d1b",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_human.primary.jsonl",
+      "sha256": "7cb57e4a5d65224c89cf1404a71444a27fa5f0cb662f641c4c54afa5afd6ade6",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_human.secondary.jsonl",
+      "sha256": "e932479c3a222c960078a81bd0d38331c623eb68f7f8ad68700e0a71b3048f67",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_lexical.primary.jsonl",
+      "sha256": "0a1b9765865d9bf982b720fcb4a641fd9271ff481d33c47a953eec8573187048",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_lexical.secondary.jsonl",
+      "sha256": "64a7a2530786c11626604cda4b15800401ddaebb8fbea853356169237fa0e01b",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_terse.primary.jsonl",
+      "sha256": "6c71126b4bbd318e9021d11adf335de561b36c2ebd6ad17b4fdc9f6762299be6",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_terse.secondary.jsonl",
+      "sha256": "cb5e064a6af88768bd79743b86fa804338751f0ea1debef25ba4d6f5ee88d1d9",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_typos.primary.jsonl",
+      "sha256": "b55c1e4a7aa67874af6500744f308aabad1834b7ef8511fb124f7864881278d6",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_typos.secondary.jsonl",
+      "sha256": "3f7249679db7dfb05ee8988d610f90a6d8c2c8d50c78b8e445a6462bc212501c",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_verbose_polite.primary.jsonl",
+      "sha256": "b5da7ef92dcde59d09256ad15432c9fcd5b4234d5af6af7311910b3496b51f95",
+      "rows": 58
+    },
+    {
+      "file": "validation_para_verbose_polite.secondary.jsonl",
+      "sha256": "eb336735a63585a87cbb26fe51b80dee98f42dac096274a081105b790cfcae1b",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_am.primary.jsonl",
+      "sha256": "20de79e398ef3508eae63c6ad83b565d614aa12ddce706684d60a1dd8ec3a7db",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_am.secondary.jsonl",
+      "sha256": "e7e13d168b4c12bee9f6d28f13afc3036551303101fbc92ef2d3c5d3946924e2",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_de.primary.jsonl",
+      "sha256": "13682ca52b5ec6082aacaaf49f202d342fa1f6490e4c0483d873a01ab5f2e039",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_de.secondary.jsonl",
+      "sha256": "f5d06017b7124001408f8504ac7d8fdd49298c01fa8870e0746029bd6540d392",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_fr.primary.jsonl",
+      "sha256": "2270b8749c6d9d3dba706050eb9bd253d23e751cf79a6bfe3a25a0bcb11ebdf2",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_fr.secondary.jsonl",
+      "sha256": "7ddb568c3245b7a676b2b3622065cfae2404dd481793017e9589795defe5d745",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_sw.primary.jsonl",
+      "sha256": "89d0e5deb57f2575d3557e88738f0487fac77afe4ddb7b1b9de96163a0a11cc8",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_sw.secondary.jsonl",
+      "sha256": "cb988b919918dc3b7e85be8ac7beb54ed8de3e7437562d604bf0171ba9d6b8cb",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_tr.primary.jsonl",
+      "sha256": "54c456e22ff77902767428b75c7914192ce0fac4b102af361b0363d2103b70de",
+      "rows": 58
+    },
+    {
+      "file": "validation_trans_tr.secondary.jsonl",
+      "sha256": "1b3accbea1b66f1ae675898dfcd167059bf3cd72b757a1b1f72f95afce49aa6d",
+      "rows": 58
+    }
+  ]
+}

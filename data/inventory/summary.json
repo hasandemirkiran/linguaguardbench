@@ -1,0 +1,31 @@
+{
+  "n_steps": 1220,
+  "n_unsafe": 352,
+  "n_instructions": 58,
+  "n_trajectories": 589,
+  "per_domain": {
+    "banking": {
+      "steps": 87,
+      "instructions": 6,
+      "unsafe": 28
+    },
+    "slack": {
+      "steps": 101,
+      "instructions": 6,
+      "unsafe": 19
+    },
+    "travel": {
+      "steps": 177,
+      "instructions": 6,
+      "unsafe": 20
+    },
+    "workspace": {
+      "steps": 855,
+      "instructions": 40,
+      "unsafe": 285
+    }
+  },
+  "instructions_with_both_labels": 57,
+  "leaky_step_share": 0.5959,
+  "approx_input_tokens_per_pass": 2486411
+}

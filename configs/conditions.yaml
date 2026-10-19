@@ -1,0 +1,82 @@
+# Perturbation conditions applied ONLY to the `instruction` field of each TS-Bench step.
+# history, current_action, env_info, and score are never modified.
+#
+# kind: control | programmatic | paraphrase | human | translate
+# Design rationale: docs/PARAPHRASE_DESIGN.md
+
+generation:
+  n_candidates: 3          # LLM candidates per instruction × style; first valid one is used
+  max_rounds: 2            # extra feedback rounds after all candidates fail
+  max_distance: 0.85       # normalized char edit distance; above this it's new text, not a rewrite
+  length_ratio: [0.4, 3.0]
+  typo_rate: 0.08          # share of eligible words perturbed in para_typos
+  typo_seed: 260903
+
+conditions:
+  # ---- controls -------------------------------------------------------------
+  - id: original
+    kind: control
+    description: Unmodified benchmark instruction (reference condition).
+
+  - id: placebo_whitespace
+    kind: control
+    description: Trailing space + collapsed double spaces; bounds tokenization noise.
+
+  - id: para_typos
+    kind: programmatic
+    description: >
+      Seeded keyboard-adjacency noise (substitute / transpose / drop / double) on ~8% of
+      eligible words, never inside a slot span; lowercase first letter; final punctuation
+      dropped. No LLM in the loop.
+
+  # ---- English paraphrases (LLM, semantics-preserving) ----------------------
+  - id: para_lexical
+    kind: paraphrase
+    style: lexical
+    min_distance: 0.25
+    description: Synonym / clause-order rewrite, same register and length.
+
+  - id: para_terse
+    kind: paraphrase
+    style: terse
+    min_distance: 0.20
+    description: Shortest natural phrasing a hurried user would type (imperative, no pleasantries).
+
+  - id: para_verbose_polite
+    kind: paraphrase
+    style: verbose_polite
+    min_distance: 0.30
+    description: Greeting + one action-irrelevant sentence of context + please/thank you.
+
+  - id: para_casual
+    kind: paraphrase
+    style: casual
+    min_distance: 0.25
+    description: Chatty first-person register with contractions; no demographic or dialect cues.
+
+  # ---- Human-written anchor -------------------------------------------------
+  - id: para_human
+    kind: human
+    min_distance: 0.15
+    description: >
+      One paraphrase per instruction written by the authors (data/perturbations/human/
+      para_human.csv, columns: instruction_id, text). Same mechanical checks as LLM output.
+
+  # ---- Translations (user turn only; environment stays English) -------------
+  - id: trans_de
+    kind: translate
+    language: de
+  - id: trans_fr
+    kind: translate
+    language: fr
+  - id: trans_tr
+    kind: translate
+    language: tr
+  - id: trans_sw
+    kind: translate
+    language: sw
+    note: low-resource tier, added 2026-09-05 (PROTOCOL §10, post-hoc)
+  - id: trans_am
+    kind: translate
+    language: am
+    note: low-resource tier, non-Latin script, added 2026-09-05 (PROTOCOL §10, post-hoc)
